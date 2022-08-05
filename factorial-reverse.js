@@ -15,11 +15,11 @@ factorial(4)
 
 
 
-//  10 of factorial value
+//  10 of factorial value. uses for loop
 // 10! = 10*9*8*7*6*5*4*3*2*1
-function factorial(number){
+/* function factorial(number){
     var result = 1;
-    for ( let i = 10; i >= 1; i--){
+    for ( let i = number; i >= 1; i--){
         result = result * i;
         console.log(i);
     }
@@ -27,4 +27,23 @@ function factorial(number){
 }
 
 var factorialValue =factorial(10);
-console.log('Factorial of 10:', factorialValue);
+console.log('Factorial of 10:', factorialValue); */
+// Output: 10 9 8 7 6 5 4 3 2 1 Factorial of 10: 3628800
+
+
+
+//  4 of factorial value. uses whie loop
+// 4! = 4*3*2*1
+function factorial(number){
+    var i = number;
+    let result = 1;
+    while( i >= 1){
+        result = result * i;
+        i--;
+    }
+    return result;
+}
+
+const factorialNumber = factorial(4);
+console.log( 'Factorial of 4:', factorialNumber);
+// Output: Factorial of 4: 24

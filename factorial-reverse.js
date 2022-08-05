@@ -15,7 +15,7 @@ factorial(4)
 
 
 
-// factorial value
+//  10 of factorial value
 // 10! = 10*9*8*7*6*5*4*3*2*1
 function factorial(number){
     var result = 1;

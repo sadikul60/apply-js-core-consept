@@ -7,6 +7,3 @@ function celsiusToFahrenheit(celsius){
 
 const fahrenheits = celsiusToFahrenheit(30);
 console.log('Celsius To Fahrenheit:', fahrenheits);
-
-
-// Fahren

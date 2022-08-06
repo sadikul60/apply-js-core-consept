@@ -7,13 +7,13 @@
 }
 
 const myNumbers = [12, 33, 34, 43, 36, 23, 45, 66, 57];
-getSumOfAnArray(myNumbers);
+getSumOfAnArray(myNumbers); */
  
 
 
 
 // get sum of an array
-function getSumOfAnArray(numbers){
+/* function getSumOfAnArray(numbers){
     let sum =0;
     for( let i = 0; i < numbers.length; i++){
         const index = i;
@@ -29,7 +29,7 @@ getSumOfAnArray(myNumbers); */
 
 
 // get odd numbers of an array
-function getOddNumbersOfAnArray(numbers){
+/* function getOddNumbersOfAnArray(numbers){
     const oddNumbers = [];
     for( let i = 0; i < numbers.length; i++){
         const index = i;
@@ -44,4 +44,4 @@ function getOddNumbersOfAnArray(numbers){
 
 const myNumbers = [12, 33, 34, 43, 36, 23, 45, 66, 57];
 const oddNumbers = getOddNumbersOfAnArray(myNumbers,);
-console.log(oddNumbers);
+console.log(oddNumbers); */

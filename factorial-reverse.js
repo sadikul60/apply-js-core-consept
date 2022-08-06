@@ -44,6 +44,6 @@ function factorial(number){
     return result;
 }
 
-const factorialNumber = factorial(4);
+const factorialNumber = factorial(6);
 console.log( 'Factorial of 4:', factorialNumber);
 // Output: Factorial of 4: 24

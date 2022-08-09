@@ -1,7 +1,8 @@
 // Find simple Interest amount
 
+// 5 persent hare 2 years er 1000 takar simple Interest
 function simpleInterest(amount, year){
-    let interest = amount * year * 6 / 100;
+    let interest = amount * year * 5 / 100;
     return interest;
 }
 
